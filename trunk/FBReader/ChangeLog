@@ -1,0 +1,123 @@
+===== 0.7.13 (Oct 28, 2010) =====
+* NoSuchFieldException has been fixed
+* Czech resources have been updated
+
+===== 0.7.12 (Oct 28, 2010) =====
+* On-timer footer update has been added
+* Keys backlight is now disabled during reading
+* Filemanager associations have been fixed
+
+===== 0.7.11 (Oct 24, 2010) =====
+* Several craches have been fixed
+
+===== 0.7.10 (Oct 24, 2010) =====
+* Resources have been updated
+
+===== 0.7.9 (Oct 24, 2010) =====
+* List of styles has been fixed in the Options dialog
+* Monospace font has been included in the fonts list
+* Wakelock will be acquired during first page repainting, not during screen switching on. That prevents from
+power comsumption if FBReader works and the screen was switched on accidentally (but not unlocked).
+* Footer code (by Yuri Chernyavskiy) has been integrated
+
+===== 0.7.8 (Oct 10, 2010) =====
+* Processing of large OPDS feeds (> 500 books in one file) has been fixed
+* Network library doesn't throw an Exception if an SD card is unavailable
+* Internal change: Error messaging system in network library has been rewritten using excpetions
+* Better error processing for litres e-book catalog
+
+===== 0.7.7 (Oct 06, 2010) =====
+* Power consumption has been fixed
+
+===== 0.7.6 (Oct 05, 2010) =====
+* Application icon with better resolution has been added
+* Czech localization (by Marek Pavelka) has been added
+* Loading of large catalogs (e.g., Manybooks->Authors->L) has been fixed
+* Default e-mail will be used during registration at litres
+
+===== 0.7.5 (Sep 22, 2010) =====
+* Mistyping in Russian help has been fixed
+* On-fly language change has been implemented
+
+===== 0.7.4 (Sep 20, 2010) =====
+* EMPTY-LINE tag in fb2 files is now supported
+* better support for STANZA tag in fb2
+* EStrong File Explorer can be used to open fb2/epub files in FBReader
+* French resources have been updated
+
+===== 0.7.3 (Sep 15, 2010) =====
+
+* Sporadic program openings during internet browsing has been fixed
+* Minor bugfixes
+
+===== 0.7.1/2 (Sep 13, 2010) =====
+
+* Support for reading books from any folders (e.g. opening books via file-manager)
+* Support for links in browser with "epub:" protocol (Stanza links)
+* Using e-mail from gmail accounts at "Sign In" dialog in Network library (only Android 2.0 and greater)
+* Some bugfixes
+
+===== 0.7.0 (Sep 03, 2010) =====
+
+* Catalog's loading resumption nearly from position when "back" key has been pressed
+* New "Navigation" dialog: user can navigate using slider. To see this dialog touch
+  the screen for a long time.
+* Hyphenation for words containing '-' symbol has been fixed
+* New "Custom catalogs" feature: user can manually add OPDS catalogs to the network library
+* Vietnamese interface translation (by Phạm Văn Hùng_Firestork) has been added
+* Italian interface translation (by Vytek and Neoxx from AndDev.it Translate Team) has been added
+* Hungarian interface translation (by L. B. Szabó, based on FBReader translation by Sándor Gábor) has been added
+* Scrollbar is shown on Android 2.2 devices
+* Installation to SD Card is now possible
+* New icon that indicates a status of a book (Paid / Free downloadable / Already downloaded) in Network library
+* An option for inverting volume keys actions has been added
+* A problem with Eken tablet devices has been fixed: status bar is always visible on these tablets now
+
+===== 0.6.6 (May 20, 2010) =====
+
+* FBReader doesn't require to press the screen off button twice
+* FBReader doesn't go to the background after changing status bar option
+* FBReader keeps rotation after switching screen off and back
+
+===== 0.6.5 (May 14, 2010) =====
+
+* Network library view has been completely changed: each subcatalog opens in new window
+* "Network search" item has been added to the Network Library
+* "My Books" item never becomes hidden; Authentication dialog is showed if needed
+* Options menu has been added to Network Catalogs
+* Books directory is now configurable
+* Manybooks catalog has been added
+* A processing of ePub internal hyperlinks with "/../" in the path has been fixed
+* German interface translation (by Victor Massini) has been added
+
+===== 0.6.4 (May 1, 2010) =====
+
+* Zip decompressing has been fixed
+
+===== 0.6.3 (Apr 30, 2010) =====
+
+* A problem with some zip-archives has been fixed
+* Searching for books in network catalogs has been implemented
+* Stopping catalogs loading from context menu
+* Users registration in Litres network catalog
+
+===== 0.6.2 (Apr 26, 2010) =====
+
+* Downloader service priority has been decreased for better UI responsivity
+* New menu items: Rotate Screen, Zoom In, Zoom Out
+* A problem with %-escaped file names inside ePubs has been fixed
+* Small fixes in "Old" Preferences Dialog (by Robert Stockton)
+
+===== 0.6.1 (Apr 23, 2010) =====
+
+* User can preview a book before downloading/purchasing
+* French resources have been updated
+
+===== 0.6.0 (Apr 19, 2010) =====
+
+* Chinese text layouting has been implemented (we use native liblinebreak library
+  from http://vimgadgets.cvs.sourceforge.net/vimgadgets/common/tools/linebreak/)
+* Network libraries integration has been included
+* Chinese interface translation has been added (by shucang.com)
+* French interface translation has been added (by Sébastien Rodriguez & Pierre Senellart)
+* Meta information reading for ePubs from www.gutenberg.org has been fixed
